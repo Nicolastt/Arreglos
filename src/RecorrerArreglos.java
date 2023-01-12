@@ -3,8 +3,8 @@ public class RecorrerArreglos {
         int[] calificaciones = {10, 10, 10, 10, 10, 10, 7, 8, 10, 10};
         int suma = 0;
 
-        for (int calificacione : calificaciones) {
-            suma += calificacione;
+        for (int calificacion : calificaciones) {
+            suma += calificacion;
         }
 
         float promedio = suma / calificaciones.length;
